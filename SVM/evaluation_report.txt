@@ -1,0 +1,26 @@
+TFIDF vectorizing...
+TF-IDF vectorization completed
+Data split into train and test sets
+Grid search with cross-validation...
+Best parameters: {'C': 100, 'gamma': 'scale', 'kernel': 'linear'}
+Grid search with cross-validation completed
+Training model...
+
+Trained model!
+
+Train Accuracy: 0.9088769954784535
+Train Precision: 0.4993042026161982
+Train Recall: 0.9106598984771573
+Train F1 Score: 0.6449757325184253
+Train Confusion Matrix:
+[[17905  1799]
+ [  176  1794]]
+Test Accuracy: 0.9167743126038015
+Test Precision: 0.5243055555555556
+Test Recall: 0.9188640973630832
+Test F1 Score: 0.6676492262343404
+Test Confusion Matrix:
+[[4515  411]
+ [  40  453]]
+Total training time: 1880.79 seconds
+Final model and vectorizer saved
