@@ -2,6 +2,9 @@
 
 - **Dingyang Miao**: Data preprocessing
 - **Li Zhang**: Random Forest
+- 6/20
+- I completed preparing the data for model training, including splitting the data and resampling the training set. I also used both a dummy and random forest classifier, leveraging grid search and cross-validation to optimize the tuning parameters. To handle imbalanced data, I utilized the "class_weight" parameter within the Random Forest classifier and applied oversampling techniques from the imblearn library. In the following steps, I will try to implement embeddings using Word2Vec and the Bag-of-Words approach.
+- 
 - **Jiaxing Yao**: SVM
 - I successfully completed the construction of the phishing email detection model and performed preliminary optimization and evaluation.
 - First, because the dataset was extremely unbalanced, I adjusted the ratio of normal emails to phishing emails to 10:1.After that, I set class_weight to be balanced in the SVM parameter settings to further balance the ratio of normal emails to phishing emails.
