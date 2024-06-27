@@ -32,6 +32,7 @@
 - The accuracy of the model on the training and test sets is 90.88% and 91.68%, respectively, and the precision, recall and F1 score on the test set are 52.43%, 91.89% and 66.76%, respectively.
 
 - ## **Lian Duan**: Naive Bayes
+ Plan to implement a Naive Bayes classifier to address the machine learning task. The process began with data preparation, including loading the dataset, handling missing values, and encoding categorical variables. I then split the data into training and testing sets and addressed class imbalance using the SMOTE technique. For feature extraction, I useTfidfVectorizer to convert text data into numerical features and train a MultinomialNB classifier and performed hyperparameter tuning using GridSearchCV to optimize parameters
 
 - ## **Xiaotian Gan**: LLM - t5-base
 Individual-Participation
