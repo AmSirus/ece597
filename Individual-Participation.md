@@ -41,3 +41,17 @@ Individual-Participation
 - 6/28
 - This week, we focused on refining and debugging a machine learning model using the T5 architecture in a Python environment. We addressed various challenges related to data preprocessing, model training, and the utilization of specific utilities such as Accelerate for optimized training. Issues such as input tensor dimensions, tokenizer warnings, and configuration mismatches were systematically resolved. Additionally, we worked on ensuring the model could correctly interpret and process input data to improve its training efficiency and output accuracy. Through iterative testing and adjustments, we aimed to enhance model performance and streamline the training process using advanced techniques like mixed precision training.
 
+
+- ## **Lepeng Zhou**: Transformer from the paper "Attention is all you need (2017)"
+#### 06/22 & 06/23
+- Researched and studied the mathematics and algorithms behind the Transformer architecture.
+- Took detailed notes on the concepts and theories understood.
+#### 06/25 & 06/26
+- Followed the original Transformer paper and various online tutorials.
+- Implemented key building blocks including:
+  - Input Embedding
+  - Positional Encoding
+  - Multi-head Encoder
+  - Normalization
+  - Feedforward Network
+- Implementation is complete but not yet tested.
