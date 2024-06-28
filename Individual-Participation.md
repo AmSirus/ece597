@@ -36,8 +36,8 @@
 
 - ## **Xiaotian Gan**: LLM - t5-base
 Individual-Participation
-06/20
-This week, I focused on enhancing a text classification model to accurately distinguish between normal and phishing emails. I fine-tuned a T5 transformer model, troubleshooting and optimizing various parameters and data preprocessing steps. My efforts included debugging code errors, refining the model's predictions to output binary results, and ensuring the accuracy of predictions through meticulous testing and adjustments.
-6/28
-This week, we focused on refining and debugging a machine learning model using the T5 architecture in a Python environment. We addressed various challenges related to data preprocessing, model training, and the utilization of specific utilities such as Accelerate for optimized training. Issues such as input tensor dimensions, tokenizer warnings, and configuration mismatches were systematically resolved. Additionally, we worked on ensuring the model could correctly interpret and process input data to improve its training efficiency and output accuracy. Through iterative testing and adjustments, we aimed to enhance model performance and streamline the training process using advanced techniques like mixed precision training.
+- 06/20
+- This week, I focused on enhancing a text classification model to accurately distinguish between normal and phishing emails. I fine-tuned a T5 transformer model, troubleshooting and optimizing various parameters and data preprocessing steps. My efforts included debugging code errors, refining the model's predictions to output binary results, and ensuring the accuracy of predictions through meticulous testing and adjustments.
+- 6/28
+- This week, we focused on refining and debugging a machine learning model using the T5 architecture in a Python environment. We addressed various challenges related to data preprocessing, model training, and the utilization of specific utilities such as Accelerate for optimized training. Issues such as input tensor dimensions, tokenizer warnings, and configuration mismatches were systematically resolved. Additionally, we worked on ensuring the model could correctly interpret and process input data to improve its training efficiency and output accuracy. Through iterative testing and adjustments, we aimed to enhance model performance and streamline the training process using advanced techniques like mixed precision training.
 
