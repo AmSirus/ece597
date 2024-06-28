@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.pipeline import Pipeline
 
 # Load data
-data = pd.read_csv('your_dataset.csv')
+data = pd.read_csv('final_df.csv')y
 
 # Assuming 'target' is the label column and 'text_column' is the text feature
 X = data['text_column']
