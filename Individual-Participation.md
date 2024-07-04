@@ -35,11 +35,10 @@ I continue using grid search cross-validation to determine the optimal hyperpara
 - July 4.
 I experimented with Random Forest using different embeddings (Bag of Words and Word2Vec) and reran grid search cross-validation for each technique. Results:
 
--- TF-IDF: Accuracy = 0.9638, AUC = 0.9773
--- Bag of Words: Accuracy = 0.9760, AUC = 0.9914
--- Word2Vec: Accuracy = 0.9786, AUC = 0.9907.
-
-- 
+TF-IDF: Accuracy = 0.9638, AUC = 0.9773
+Bag of Words: Accuracy = 0.9760, AUC = 0.9914
+Word2Vec: Accuracy = 0.9786, AUC = 0.9907.
+ 
 - ## **Jiaxing Yao**: SVM
 - I successfully completed the construction of the phishing email detection model and performed preliminary optimization and evaluation.
 - First, because the dataset was extremely unbalanced, I adjusted the ratio of normal emails to phishing emails to 10:1.After that, I set class_weight to be balanced in the SVM parameter settings to further balance the ratio of normal emails to phishing emails.
