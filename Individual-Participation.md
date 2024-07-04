@@ -21,8 +21,24 @@
 
   
 - ## **Li Zhang**: Random Forest
-- 6/20
-- I completed preparing the data for model training, including splitting the data and resampling the training set. I also used both a dummy and random forest classifier, leveraging grid search and cross-validation to optimize the tuning parameters. To handle imbalanced data, I utilized the "class_weight" parameter within the Random Forest classifier and applied oversampling techniques from the imblearn library. In the following steps, I will try to implement embeddings using Word2Vec and the Bag-of-Words approach.
+- May through June 13
+I focused on setting up the random forest classifier model and constructing data preprocessing during this period. The dataset was extremely imbalanced, so I used all spam emails and resampled the regular emails to build a smaller, balanced dataset with a ratio of 1:10 for training. After cleaning and resampling the data, I use TF-IDF vectorization to convert the text for model training.
+
+- June 20
+This week, I implemented a baseline classifier using the dummy classifier to get a better overview of the initial performance as a baseline. Accuracy: 0.8428, AUC: 0.5147.
+Besides, I began to use grid search cross-validation to find the best tuning parameters of the Random Forest classifier with TF-IDF.
+Accuracy: 0.9661, AUC: 0.9749.
+
+--June 27
+I continue using grid search cross-validation to determine the optimal hyperparameters for the Random Forest classifier. To maximize performance metrics using AUC. After that, find the best parameters as max_depth =30, max_features = 'log2', min_samples_split = 2, n_estimators =500. Then, I used SMOTE and undersampling techniques to deal with the imbalanced dataset. 
+
+- July 4.
+I experimented with Random Forest using different embeddings (Bag of Words and Word2Vec) and reran grid search cross-validation for each technique. Results:
+
+    TF-IDF: Accuracy = 0.9638, AUC = 0.9773
+    Bag of Words: Accuracy = 0.9760, AUC = 0.9914
+    Word2Vec: Accuracy = 0.9786, AUC = 0.9907.
+
 - 
 - ## **Jiaxing Yao**: SVM
 - I successfully completed the construction of the phishing email detection model and performed preliminary optimization and evaluation.
