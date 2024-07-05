@@ -1,6 +1,6 @@
 # Task Distribution
 
-- ## **Dingyang Miao**: Data preprocessing
+- ## **Dingyang Miao**: Data preprocessing and Feature Extraction
     ### Comparing Two Datasets (Normal Emails and Abnormal Emails):
     Extract common features shared by both datasets.
     Remove the remaining parts that are not common between the two datasets.
@@ -17,7 +17,7 @@
     Perform lemmatization
     Normalize common abbreviations
     ### Extracting Data Features:
-    Use TfidfVectorizer to extract the most frequently occurring words from both normal and abnormal emails based on term frequency.
+    I utilized two different methods to extract features from spam texts: TF-IDF and Gensim's Word2Vec. The TF-IDF method assigns scores to words based on their frequency and inverse document frequency, capturing the importance of words in the dataset. The Word2Vec method, on the other hand, generates word embeddings that capture the semantic relationships between words by considering their context within a specified window.
 
   
 - ## **Li Zhang**: Random Forest
@@ -45,6 +45,8 @@ I experimented with Random Forest using different embeddings (Bag of Words and W
 - ## **Lian Duan**: Naive Bayes
  Plan to implement a Naive Bayes classifier to address the machine learning task. The process began with data preparation, including loading the dataset, handling missing values, and encoding categorical variables. I then split the data into training and testing sets and addressed class imbalance using the SMOTE technique. For feature extraction, I useTfidfVectorizer to convert text data into numerical features and train a MultinomialNB classifier 
 I obtain that the accuracy after training is 99.38%, and the percision is 71%, recall is 97%, and F1-score is 79%.
+
+
 - ## **Xiaotian Gan**: LLM - t5-base
 Individual-Participation
 - 06/20
