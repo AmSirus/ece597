@@ -18,6 +18,7 @@
     Normalize common abbreviations
     ### Extracting Data Features:
     I utilized two different methods to extract features from spam texts: TF-IDF and Gensim's Word2Vec. The TF-IDF method assigns scores to words based on their frequency and inverse document frequency, capturing the importance of words in the dataset. The Word2Vec method, on the other hand, generates word embeddings that capture the semantic relationships between words by considering their context within a specified window.
+    The features extracted are the same, but there is a difference in the order in which they are placed.
 
   
 - ## **Li Zhang**: Random Forest
