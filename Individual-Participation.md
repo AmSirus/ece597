@@ -44,9 +44,10 @@ I experimented with Random Forest using different embeddings (Bag of Words and W
 - The accuracy of the model on the training and test sets is 90.88% and 91.68%, respectively, and the precision, recall and F1 score on the test set are 52.43%, 91.89% and 66.76%, respectively.
 
 - ## **Lian Duan**: Naive Bayes
- Plan to implement a Naive Bayes classifier to address the machine learning task. The process began with data preparation, including loading the dataset, handling missing values, and encoding categorical variables. I then split the data into training and testing sets and addressed class imbalance using the SMOTE technique. For feature extraction, I useTfidfVectorizer to convert text data into numerical features and train a MultinomialNB classifier 
-I obtain that the accuracy after smote is 99.38%, and the percision is 71%, recall is 97%, and F1-score is 79%.
-AndI trained the data with Naive Bayes modle, after training, the accuracy is 0.9975, and the macro avg  recall is 0.76, while the weighted avg one is 1.00. For the F1 score, value of macro avg is 0.84, the weighted avg one is 1.00. Both of the precision are 1.00
+I implement a Naive Bayes classifier to address the machine learning task. The process began with data preparation, including loading the dataset, handling missing values, and encoding categorical variables. I then split the data into training and testing sets and addressed class imbalance using the SMOTE technique. For feature extraction, I use TfidfVectorizer to convert text data into numerical features and train a MultinomialNB classifier 
+-I train and test the data under Naive Bayes module.
+-I obtain that the accuracy after smote is 99.38%, and the percision is 71%, recall is 97%, and F1-score is 79%.
+-And I trained the data with Naive Bayes modle, after training, the accuracy is 0.9975, and the macro avg recall is 0.76, while the weighted avg one is 1.00. For the F1 score, value of macro avg is 0.84, the weighted avg one is 1.00. Both of the precision are 1.00
 
 
 - ## **Xiaotian Gan**: LLM - t5-base
