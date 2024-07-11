@@ -33,8 +33,11 @@ Accuracy: 0.9661, AUC: 0.9749.
 - June 27
 I continue using grid search cross-validation to determine the optimal hyperparameters for the Random Forest classifier. To maximize performance metrics using AUC. After that, find the best parameters as max_depth =30, max_features = 'log2', min_samples_split = 2, n_estimators =500. Then, I used SMOTE and undersampling techniques to deal with the imbalanced dataset. 
 
-- July 4.
+- July 4
 I experimented with Random Forest using different embeddings (Bag of Words and Word2Vec) and reran grid search cross-validation for each technique. Results:  TF-IDF: Accuracy = 0.9638, AUC = 0.9773. Bag of Words: Accuracy = 0.9760, AUC = 0.9914. Word2Vec: Accuracy = 0.9786, AUC = 0.9907.
+
+- July 11
+I continued exploring the Random Forest using different embeddings and found that the accuracy with Bag of Words and Word2Vec reached a high of 0.97. I then applied imbalanced data handling techniques and discovered that the Random Forest classifier with Bag of Words embedding and balanced features achieved the highest performance: Accuracy: 0.9849, Precision: 0.9437, Recall: 0.8862, AUC: 0.9948.
  
 - ## **Jiaxing Yao**: SVM
 - I successfully completed the construction of the phishing email detection model and performed preliminary optimization and evaluation.
