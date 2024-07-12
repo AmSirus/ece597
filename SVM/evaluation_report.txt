@@ -24,3 +24,47 @@ Test Confusion Matrix:
  [  40  453]]
 Total training time: 1880.79 seconds
 Final model and vectorizer saved
+
+//////////////////////////////////////////////////////////////////////
+embedding: C = 1， kernel = rbf, gamma = scale
+
+Embeddig...
+Embedding completed
+Train Accuracy: 0.9655808803174311
+Train Precision: 0.7323462414578588
+Train Recall: 0.9791878172588833
+Train F1 Score: 0.8379669852302346
+Train AUC: 0.9965736298229018
+Train Confusion Matrix:
+[[18999   705]
+ [   41  1929]]
+Test Accuracy: 0.9664144676139509
+Test Precision: 0.7418351477449455
+Test Recall: 0.9675456389452333
+Test F1 Score: 0.8397887323943662
+Test AUC: 0.9941532243121114
+Test Confusion Matrix:
+[[4760  166]
+ [  16  477]]
+
+/////////////////////////////////////////////////////////////////
+embedding: C = 100， kernel = rbf, gamma = scale
+
+Embeddig...
+Embedding completed
+Train Accuracy: 0.9980621943342254
+Train Precision: 0.9800796812749004
+Train Recall: 0.9989847715736041
+Train F1 Score: 0.9894419306184011
+Train AUC: 0.9999478190931368
+Train Confusion Matrix:
+[[19664    40]
+ [    2  1968]]
+Test Accuracy: 0.980808267207972
+Test Precision: 0.8882235528942116
+Test Recall: 0.9026369168356998
+Test F1 Score: 0.8953722334004025
+Test AUC: 0.9904942026371639
+Test Confusion Matrix:
+[[4870   56]
+ [  48  445]]
