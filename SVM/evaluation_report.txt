@@ -30,22 +30,32 @@ embedding: C = 1， kernel = rbf, gamma = scale
 
 Embeddig...
 Embedding completed
-Train Accuracy: 0.9655808803174311
-Train Precision: 0.7323462414578588
+Cross-Validation Accuracy Scores: [0.95963091 0.95778547 0.96309112 0.96032295 0.96054453]
+Mean Accuracy: 0.9602749962875021
+Cross-Validation Precision Scores: [0.71017274 0.69357798 0.73214286 0.7063197  0.70919325]
+Mean Precision: 0.7102813063793529
+Cross-Validation Recall Scores: [0.93908629 0.95939086 0.93654822 0.96446701 0.95939086]
+Mean Recall: 0.9517766497461929
+Cross-Validation F1 Scores: [0.80874317 0.80511182 0.82182628 0.81545064 0.81553398]
+Mean F1 Score: 0.813333179093625
+Cross-Validation AUC Scores: [0.99200775 0.99220224 0.9920319  0.99161586 0.99085425]
+Mean AUC: 0.9917424004798704
+Train Accuracy: 0.9667343360708683
+Train Precision: 0.7393637408968954
 Train Recall: 0.9791878172588833
-Train F1 Score: 0.8379669852302346
-Train AUC: 0.9965736298229018
+Train F1 Score: 0.8425420397466695
+Train AUC: 0.9965908130689535
 Train Confusion Matrix:
-[[18999   705]
+[[19024   680]
  [   41  1929]]
-Test Accuracy: 0.9664144676139509
-Test Precision: 0.7418351477449455
-Test Recall: 0.9675456389452333
-Test F1 Score: 0.8397887323943662
-Test AUC: 0.9941532243121114
+Test Accuracy: 0.9647536445838716
+Test Precision: 0.7330246913580247
+Test Recall: 0.9634888438133874
+Test F1 Score: 0.8326029798422437
+Test AUC: 0.9940399865267625
 Test Confusion Matrix:
-[[4760  166]
- [  16  477]]
+[[4753  173]
+ [  18  475]]
 
 /////////////////////////////////////////////////////////////////
 embedding: C = 100， kernel = rbf, gamma = scale
