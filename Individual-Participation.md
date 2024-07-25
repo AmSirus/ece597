@@ -69,7 +69,7 @@ Individual-Participation
 - This week, I continued to train my model using PEFT, which doubled the training speed. However, the accuracy slightly decreased from 90% to 88%. I believe the moderate accuracy is due to the cleanliness of the training set. During preprocessing, many common words such as 'the', 'to', and 'and' were removed, and the training set contained a significant amount of noise, including emails that are incomprehensible to humans. These factors suggest that the dataset may not be ideally suited for large language models. Additionally, I began drafting my report this week and plan to make further adjustments to the model and finalize the report next week. This summary encapsulates my efforts and progress over the week.
 
 
-- ## **Lepeng Zhou**: Transformer from the paper "Attention is all you need (2017)"
+- ## **Lepeng Zhou**: Transformer encoder from the paper "Attention is all you need (2017)"
 #### 06/22 & 06/23
 - Researched and studied the mathematics and algorithms behind the Transformer architecture.
 - Took detailed notes on the concepts and theories understood.
@@ -82,3 +82,8 @@ Individual-Participation
   - Normalization
   - Feedforward Network
 - Implementation is complete but not yet tested.
+#### Entire July
+- tried different implementation of the final classifier layer
+- Finished implementation and debug code
+- tuning and experiment with parameter settings
+- Report the best result.
