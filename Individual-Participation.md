@@ -47,9 +47,10 @@ I continued exploring the Random Forest using different embeddings and found tha
 - Hyper-parameters were optimized by grid search and cross-validation, and hyper-parameter filtering was performed based on the recall's scores, which ultimately resulted in the best model parameters so far.
 - The accuracy of the model on the training and test sets is 90.88% and 91.68%, respectively, and the precision, recall and F1 score on the test set are 52.43%, 91.89% and 66.76%, respectively.
 
-- July 4-11
+- Entire July
 - During feature extraction, I performed embedding operations and used grid search based on recall scores to find the best parameters. Ultimately, my model achieved a recall score of 96.75% and an accuracy of 96.64% on the test set. Additionally, there is a set of parameters that can achieve an accuracy of 98.08%, but the recall score is only 90.26%.
 
+- Applied Bags of words, collected results, compared results and drafted report.
 
 
 - ## **Lian Duan**: Naive Bayes
